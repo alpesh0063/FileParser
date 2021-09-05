@@ -29,7 +29,7 @@ namespace FileParser
                     output.DisplayUserDetails(sorted);
                     Console.WriteLine("\n\n\n========== List of users sorted by Last name descending ==========\n");
                     sorted = listOfUsers.OrderByDescending(x => x.LastName).ToList();
-                    output.DisplayUserDetails(sorted);
+                    output.DisplayUserDetails(sorted); 
                 }
                 else
                 {
